@@ -48,7 +48,7 @@ jobs:
       - name: Clean up SSH key 🚀
         if: always()
         run: rm -f ~/.ssh/id_rsa
-  deploy:
+deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout current branch ✅
